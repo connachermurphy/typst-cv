@@ -11,15 +11,56 @@
   date: [2015-2019],
 )[]
 
-= Working Papers
+= Works in Progress
 + Paper 2
 + Paper 1
 
 // create an environment here for working papers, look to pset template to get total # of papers
 
-= Works in Progress
-+ Paper 2
-+ Paper 1
+= Working Papers
+#wp(
+  title: [A paper title],
+)[Information on the paper]
+#wp(
+  title: [A paper title],
+)[Information on the paper]
+#wp(
+  title: [A paper title],
+)[Information on the paper]
+#wp(
+  title: [A paper title],
+)[Information on the paper]
+#wp(
+  title: [A paper title],
+)[Information on the paper]
+#wp(
+  title: [A paper title],
+)[Information on the paper]
+#wp(
+  title: [A paper title],
+)[Information on the paper]
+#wp(
+  title: [A paper title],
+)[Information on the paper]
+#wp(
+  title: [A paper title],
+)[Information on the paper]
+#wp(
+  title: [A paper title],
+)[Information on the paper]
+#wp(
+  title: [A paper title],
+)[Information on the paper]
+#wp(
+  title: [A paper title],
+)[Information on the paper]
+
+
+#text(font:"Geneva")[Geneva]
+
+#text(font:"Futura")[Futura]
+
+#text(font:"Menlo")[Menlo]
 
 = Publications
 Nothing to see here.
