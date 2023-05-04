@@ -2,6 +2,8 @@
 
 #show: cv.with(
     name: "Connacher Murphy",
+    email: [#link("mailto:connacher.murphy@gmail.com")[connacher.murphy\@gmail.com]],
+    date: "05/03/2023",
 )
 
 = Education
@@ -12,55 +14,14 @@
 )[]
 
 = Works in Progress
-+ Paper 2
-+ Paper 1
-
-// create an environment here for working papers, look to pset template to get total # of papers
+#include "works_in_progress.typ"
 
 = Working Papers
-#wp(
-  title: [A paper title],
-)[Information on the paper]
-#wp(
-  title: [A paper title],
-)[Information on the paper]
-#wp(
-  title: [A paper title],
-)[Information on the paper]
-#wp(
-  title: [A paper title],
-)[Information on the paper]
-#wp(
-  title: [A paper title],
-)[Information on the paper]
-#wp(
-  title: [A paper title],
-)[Information on the paper]
-#wp(
-  title: [A paper title],
-)[Information on the paper]
-#wp(
-  title: [A paper title],
-)[Information on the paper]
-#wp(
-  title: [A paper title],
-)[Information on the paper]
-#wp(
-  title: [A paper title],
-)[Information on the paper]
-#wp(
-  title: [A paper title],
-)[Information on the paper]
-#wp(
-  title: [A paper title],
-)[Information on the paper]
+#include "working_papers.typ"
 
+// = Publications
+// Nothing to see here.
 
-#text(font:"Geneva")[Geneva]
-
-#text(font:"Futura")[Futura]
-
-#text(font:"Menlo")[Menlo]
-
-= Publications
-Nothing to see here.
+// #text(font:"Geneva")[Geneva]
+// #text(font:"Futura")[Futura]
+// #text(font:"Menlo")[Menlo]
