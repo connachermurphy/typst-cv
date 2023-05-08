@@ -7,10 +7,23 @@
 )
 
 = Education
-#education(
-  institution: [University of Notre Dame],
-  degree: [B.A. in Economics and Applied Mathematics],
+#experience(
+  description: [University of Chicago, Ph.D. in Economics],
+  date: [2022-Present],
+)[]
+#experience(
+  description: [University of Notre Dame, B.A. in Economics and Applied Mathematics],
   date: [2015-2019],
+)[]
+
+= Research Assistance
+#experience(
+  description: [Prof. Bruce Meyer, Comprehensive Income Dataset Project],
+  date: [2020-Present],
+)[]
+#experience(
+  description: [Wilson Sheehan Lab for Economic Opportunities],
+  date: [2017-2019],
 )[]
 
 = Works in Progress

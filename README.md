@@ -9,7 +9,9 @@ CV template for Typst.
 - [X] Fix header spacing
 - [X] Add last updated date
 - [X] Link email
-- [ ] Link styling
+- [X] Add research assistance
+- [X] Link styling
+- [X] Check page dimensions
 
 ## Scattered Ideas
 ### Paper environment

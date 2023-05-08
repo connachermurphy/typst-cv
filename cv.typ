@@ -1,9 +1,7 @@
 #let heading_size = 16pt
 #let heading_font = "Futura"
 #let body_font = "Lora"
-
-#let wp_counter = counter("wp")
-
+// #let body_font = "Linux Libertine"
 
 #let cv(
     name: "Name",
@@ -11,34 +9,35 @@
     date: "",
     body,
 ) = {
-    set text(font: body_font, size: 12pt)
     set document(author: name, title: "CV Title Placeholder")
-    
-    show heading.where(level: 1): it => {
-        // v(-6pt)
-        text(it, font: heading_font, style: "normal", weight: "regular", size: heading_size)
-    }
+    set page(paper: "us-letter", numbering: "1", number-align: center)
+    set text(font: body_font, lang: "en", size: 12pt)
+
+    show heading.where(level: 1): set text(font: heading_font, style: "normal", weight: "regular", size: heading_size)
+
+    show link: set text(blue)
+    show link: underline
 
     align(
         [#text(name, font: heading_font, style: "normal", weight: "regular", size: heading_size) \
         #email \
         Last updated: #date]
         , center)
+    
     // v(-12pt)
     // line(length: 100%)
     // v(-6pt)
     body
 }
 
-#let education(
-    institution: "Institution",
-    degree: "Degree",
+#let experience(
+    description: "Experience description",
     date: "Date",
     body
 ) = {
     stack(dir: ltr,
     {
-        [*#institution,* #degree]
+        [#description]
     },
     {
         set align(right)
@@ -46,16 +45,3 @@
     }
     )
 }
-
-// #let wp(
-//     title: "Paper Title",
-//     body
-// ) = {
-//     locate(loc => {
-//         wp_counter.step()
-
-//         let wp_counter_rev = wp_counter.final(loc).at(0) - wp_counter.at(loc).at(0)
-//         set enum(start: wp_counter_rev)
-//         [+ "#title." #body]
-//     })
-// }
