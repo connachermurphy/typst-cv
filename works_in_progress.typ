@@ -1,5 +1,5 @@
 #let items = (
-    [“The American Workweek: Evidence from Time-Use Data”],
+    [#quote[A project in progress, sure to revolutionize the field.]],
 )
 
 #list(..items)
